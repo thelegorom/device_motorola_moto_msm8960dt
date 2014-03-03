@@ -175,6 +175,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.dfr_mode_set=1 \
     persist.rmnet.mux=disabled \
     persist.radio.eons.enabled=1
+    
+# OTA ID
+PRODUCT_PROPERTY_OVERRIDES += \
+    otaupdater.otaid=liquidmsm8960dt
 
 $(call inherit-product, device/motorola/qcom-common/qcom-common.mk)
 $(call inherit-product, device/motorola/moto_msm8960dt/idc/idc.mk)
