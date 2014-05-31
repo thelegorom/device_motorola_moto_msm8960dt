@@ -12,7 +12,7 @@
     "revision": "kitkat"
   },
   {
-    "remote": "ls",
+    "remote": "lsd",
     "repository": "android_kernel_motorola_msm8960dt-common",
     "target_path": "kernel/motorola/msm8960dt-common",
     "revision": "kitkat"
